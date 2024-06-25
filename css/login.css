@@ -1,0 +1,203 @@
+/* Resetting default browser styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Styling the body */
+body {
+    height: 100vh;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Arial', sans-serif;
+    padding: 20px;
+}
+
+/* Styling the login form */
+.loginform {
+    width: min(450px, 95%);
+    height: auto;
+    padding: 20px;
+    border: solid 1px blue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 10px;
+    transition: all 0.5s;
+}
+
+/* Adding hover effect to login form */
+.loginform:hover {
+    box-shadow: 0 0 100px 0px rgb(121, 97, 239), 0 0 400px 10px rgb(121, 97, 239);
+    animation: blink 1s infinite;
+    background-color: #f0f0f0;
+}
+
+/* Keyframes for blinking effect */
+@keyframes blink {
+    0%, 100% {
+        box-shadow: 0 0 100px 0px rgb(121, 97, 239), 0 0 400px 10px rgb(121, 97, 239);
+    }
+    40%, 50%, 60% {
+        box-shadow: 0 0 50px 0px rgb(121, 97, 239), 0 0 100px 0px rgb(121, 97, 239);
+    }
+}
+
+/* Styling the input group */
+.inputgroup {
+    position: relative;
+    height: 50px;
+    width: 85%;
+    margin-top: 30px;
+}
+
+/* Styling the input fields */
+.inputgroup input {
+    position: absolute;
+    width: 100%;
+    height: 45px;
+    background: transparent;
+    outline: none;
+    border: none;
+    border-bottom: solid 1px red;
+    color: #333;
+    font-size: 1rem;
+    transition: all 0.2s;
+}
+
+/* Styling the labels */
+.inputgroup label {
+    position: absolute;
+    top: 15px;
+    left: 0;
+    color: red;
+    transition: all 0.2s;
+    font-size: 1rem;
+}
+
+/* Styling input focus and hover states */
+.inputgroup input:hover + label,
+.inputgroup input:focus + label,
+.inputgroup input:valid + label {
+    transform: translateY(-20px);
+    color: rgb(0, 85, 255);
+}
+.inputgroup input:hover,
+.inputgroup input:focus,
+.inputgroup input:valid {
+    border-bottom: solid 1px rgb(0, 85, 255);
+}
+
+/* Adding top margin classes */
+.topmargin {
+    margin-top: 50px;
+}
+.topmarginlarge {
+    margin-top: 80px;
+}
+
+/* Styling the call-to-action div */
+.divcallforaction {
+    width: 85%;
+    height: 45px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-top: 30px;
+}
+
+/* Styling the login button */
+.btnlogin {
+    border: solid 1px blue;
+    width: 150px;
+    height: 45px;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: rgb(50, 168, 247);
+    color: white;
+    transition: all 0.2s;
+    cursor: pointer;
+}
+
+/* Adding hover effect to the login button */
+.btnlogin:hover {
+    box-shadow: 0 0 100px rgb(242, 88, 201);
+    transform: translateY(-5px);
+}
+
+/* Styling the error div */
+.diverror {
+    background-color: transparent;
+    color: white;
+    height: 45px;
+    width: 85%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    visibility: hidden;
+    opacity: 0;
+    transition: all 1s;
+    letter-spacing: 1px;
+}
+
+/* Adding error div visibility class */
+.applyerrordiv {
+    visibility: visible;
+    opacity: 1;
+    animation: falldown 1s linear;
+}
+
+/* Keyframes for error div animation */
+@keyframes falldown {
+    0% { opacity: 0; transform: translateY(-100px); }
+    49% { opacity: 1; transform: translateY(0); letter-spacing: 1px; }
+    50% { opacity: 1; transform: translateY(0); letter-spacing: 3px; }
+    55% { opacity: 1; transform: translateY(0); letter-spacing: 1px; }
+    60% { opacity: 1; transform: translateY(-50px); }
+    80% { opacity: 1; transform: translateY(0); }
+    85% { opacity: 1; transform: translateY(-10px); }
+    100% { opacity: 1; transform: translateY(0); }
+}
+
+/* Media queries for responsive design */
+@media (max-width: 768px) {
+    .loginform {
+        width: 90%;
+        height: auto;
+        padding: 20px;
+    }
+    .inputgroup {
+        width: 100%;
+    }
+    .divcallforaction {
+        width: 100%;
+        justify-content: center;
+    }
+    .btnlogin {
+        width: 100%;
+        margin-top: 20px;
+    }
+    .diverror {
+        width: 100%;
+    }
+}
+
+@media (max-width: 480px) {
+    .loginform {
+        width: 95%;
+        height: auto;
+        padding: 15px;
+    }
+    .inputgroup {
+        margin-top: 20px;
+    }
+    .btnlogin {
+        width: 100%;
+        height: 40px;
+    }
+}
