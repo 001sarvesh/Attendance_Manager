@@ -21,7 +21,7 @@ Attendance Manager is a web-based application designed to help teachers and prof
 ![Screenshot 3](attendanceSheet.JPG)
 *Attendance Sheet: Allows teachers to track attendance by selecting dates from a calendar.*
 
-![Screenshot 4](endEmail.JPG)
+![Screenshot 4](sendEmail.JPG)
 *Email Notification Setup: Uses SMTP in XAMPP Apache configuration to notify students via email.*
 
 ![Screenshot 5](emailReceive.JPG)
