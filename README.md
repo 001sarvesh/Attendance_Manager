@@ -13,7 +13,7 @@ Attendance Manager is a web-based application designed to help teachers and prof
 
 ## Screenshots
 
-![Screenshot 1](img2)
+img1.JPG(img2)
 Here you can enter by using user name and password
 
 ![Screenshot 2](img3)
