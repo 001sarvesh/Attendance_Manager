@@ -29,7 +29,7 @@ Attendance Manager is a web-based application designed to help teachers and prof
 
 ## Demo Video
 
-[Watch the demo video]([link-to-video](https://youtu.be/5g8xqb06zU4?si=d-HilNUrKiBT4saR)) <!-- Here is the short video link of working project -
+[Watch the demo video][(https://youtu.be/5g8xqb06zU4?si=d-HilNUrKiBT4saR] <!-- Here is the short video link of working project -
 
 ## Getting Started
 
