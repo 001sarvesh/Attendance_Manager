@@ -133,7 +133,7 @@ body {
 /* Styling the error div */
 .diverror {
     background-color: transparent;
-    color: white;
+    color: red;
     height: 45px;
     width: 85%;
     display: flex;
