@@ -12,7 +12,7 @@ Attendance Manager is a web-based application designed to help teachers and prof
 
 ## Screenshots
 
-![Screenshot 1](loginPage.JPG)
+![Screenshot 1](at1.JPG)
 *Login Page: Professors or teachers can sign in to access attendance management, reports, and email notifications.*
 
 ![Screenshot 2](afterlogin.JPG)
