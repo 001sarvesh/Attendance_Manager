@@ -10,26 +10,7 @@ Attendance Manager is a web-based application designed to help teachers and prof
 - **Database**: Utilizes SQL database (via XAMPP and PHPMyAdmin) for storing attendance records securely.
 - **Technologies Used**: HTML, CSS, JavaScript (JS), SQL, XAMPP, PHP.
 
-## Screenshots
 
-![Screenshot 1](at1.JPG)
-*Login Page: Professors or teachers can sign in to access attendance management, reports, and email notifications.*
-
-![Screenshot 2](afterlogin.JPG)
-*Dashboard: Page displayed after successful login.*
-
-![Screenshot 3](attendanceSheet.JPG)
-*Attendance Sheet: Allows teachers to track attendance by selecting dates from a calendar.*
-
-![Screenshot 4](sendEmail.JPG)
-*Email Notification Setup: Uses SMTP in XAMPP Apache configuration to notify students via email.*
-
-![Screenshot 5](emailReceive.JPG)
-*Email Example: Sample email received by a student for low attendance notification.*
-
-## Demo Video
-
-[Watch the demo video][(https://youtu.be/5g8xqb06zU4?si=d-HilNUrKiBT4saR] <!-- Here is the short video link of working project -
 
 ## Getting Started
 
