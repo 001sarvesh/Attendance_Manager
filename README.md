@@ -51,5 +51,7 @@ Attendance Manager is a web-based application designed to help teachers and prof
    - Take attendance by selecting dates and marking students present or absent.
    - View attendance reports for individual students or the entire class.
    - Manage email notifications to students with low attendance.
+  
+4. Prof- aayu- 123
 
 # Thanks for reading
