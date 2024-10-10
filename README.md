@@ -1,4 +1,4 @@
-# Attendance Manager
+# Attendify
 Attendance Manager is a web-based application designed to help teachers and professors track student attendance records efficiently. It provides tools for attendance management, reporting, and communication with students via email notifications regarding attendance.
 
 ## Features
